@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(9, 9, 14);
+    overflow: auto;
+}
+
+/*BARRA DE NAVEGAÇÃO*/
+
+.navegacao {
+    background-color: rgb(25, 25, 65);
+    text-align: center;
+    padding: 50px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    gap: 50px
+}
+
+.navegacao a {
+    padding: 5px 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    border: 1px solid rgb(104, 104, 104);
+    border-radius: 15px;
+}
+
+.navegacao a:hover{
+    background-color: rgb(104, 104, 104);
+}
+
+
+/*CONTEÚDO PRINCIPAL*/
+
+section {
+    background-color: rgb(20, 20, 36); 
+    padding: 35px;
+}
+
+section img {
+    max-width: 60px;
+    max-height: 60px;
+    margin: 12px;
+}
+
+.display {
+    display: flex;
+    justify-content: space-around;
+}
+
+.rede-social {
+    border: 1px solid rgb(104, 104, 104);
+    width: 210px;
+    height: 300px;
+    text-align: center;
+    font-size: 12px;
+    margin: 20px;
+    border-radius: 12px;
+    background-color: rgb(43, 45, 49);
+    color: white;
+}
+
+/*FOOTER*/
+
+footer {
+    margin-top: 16px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+footer h3 {
+    color: rgb(46, 106, 235);
+    font-size: 22px;
+}
+
+footer p {
+    color: gray;
+    font-size: 12px;
+    position: relative;
+    bottom: 15px;
+}
